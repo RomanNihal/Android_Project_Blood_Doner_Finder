@@ -1,0 +1,14 @@
+<resources>
+    <string name="signUpText"> <u>Sign Up</u> </string>
+    <string name="signInText"> <u>Sign In</u> </string>
+    <string name="app_name">Blood Heroes</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Log Out</string>
+    <string name="menu_beADonor">Be a donor</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Edit Profile</string>
+    <string name="menu_slideshow">Donation date</string>
+    <string name="menu_aboutUs">About Us</string>
+</resources>

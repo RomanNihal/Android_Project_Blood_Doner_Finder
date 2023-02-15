@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_700"
+    tools:context=".ui.slideshow.SlideshowFragment">
+
+
+    <DatePicker
+        android:id="@+id/updateDonationDateDatePicker"
+        android:layout_width="315dp"
+        android:layout_height="435dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="36dp"
+        android:headerBackground="@color/purple_500"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/updateDonationDateTextView" />
+
+    <Button
+        android:id="@+id/updateDonationDateButton"
+        android:layout_width="match_parent"
+        android:layout_margin="50dp"
+        android:layout_height="wrap_content"
+        android:onClick="updateDonationDateButton"
+        android:text="update"
+        android:fontFamily="@font/ubuntu_bold"
+       android:textColor="@color/purple_700"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/updateDonationDateDatePicker"
+        app:layout_constraintVertical_bias="0.245" />
+
+    <TextView
+        android:id="@+id/updateDonationDateTextView"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/ubuntu_bold"
+        android:text="Last donation date is selected\nYou can update here"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

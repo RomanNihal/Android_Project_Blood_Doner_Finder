@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "220468114705",
+    "project_id": "blutspende-8998d",
+    "storage_bucket": "blutspende-8998d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220468114705:android:08b35f82e629c05a8dc8b0",
+        "android_client_info": {
+          "package_name": "com.example.blutspende"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "220468114705-cvqohfue87g92i15aogf3sk5qgego1qg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.blutspende",
+            "certificate_hash": "4fdcebfb9b339ab9290ac9acddd46fe9b0bbd714"
+          }
+        },
+        {
+          "client_id": "220468114705-vgrr6593n7e8ppjujgn86v2617equiem.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2nXxoJtHiKIZgueqRuY3ddDvU_rOgWlc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "220468114705-vgrr6593n7e8ppjujgn86v2617equiem.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
