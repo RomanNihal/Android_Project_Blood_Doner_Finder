@@ -1,2 +1,2 @@
-# Android application for finding blood doner
-# For practice purpose
+# Android application for finding a blood donor
+# For practice purpose, and also had a plan to deploy.
