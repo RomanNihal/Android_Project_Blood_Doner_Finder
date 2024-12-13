@@ -1,43 +1,45 @@
-# Android Practice
+# Blood Doner Finder
 
-Welcome to my Android Practice repository! 📱
+Welcome to the **Blood Doner Finder** project! 💉
 
-This repository is a collection of my Android development practices. It includes simple dummy projects and small exercises where I experiment with various Android features and concepts. These projects are primarily for learning and improving my Android development skills.
+This is an Android application designed to help people find blood donors in their area. The app allows users to sign up either as a **donor** or a **normal user**. The goal is to create a platform where blood donors can connect with people in need of blood by searching for donors based on blood group and location.
 
-## Repository Contents
+## Features
 
-Here’s what you can find in this repository:
+### 1. **User Registration**:
+   - **Donors** can sign up to offer their blood for donation.
+   - **Normal Users** can register to search for donors and post requests when they need blood.
 
-1. **Practices**:
-   - Simple Android app exercises to practice UI components, layouts, and views.
-   - Basic functionalities like button clicks, text input, and navigation.
-   
-2. **Dummy Projects**:
-   - Small projects to understand how Android components work together (e.g., Navigation, RecyclerView, API integration).
-   - Projects that explore Android fundamentals like Activity lifecycle, intents, and services.
+### 2. **Search Blood Donors**:
+   - Users can search for donors by **blood group** and **location**.
+   - The app will display a list of available donors based on the search criteria.
 
-3. **Learning Resources**:
-   - My notes or references to tutorials that I found helpful while learning Android development.
+### 3. **Post a Blood Request**:
+   - If no donor is available at the moment, a user can post a blood request.
+   - Donors will be notified of the request and can contact the user who posted it.
 
-## Technologies and Tools
+### 4. **Donation Tracking**:
+   - Donors can track the dates they have donated blood.
+   - Donor information will not be displayed for 90 days after donating to allow for a safe recovery period before they can donate again.
+
+### 5. **Normal User to Donor**:
+   - Any normal user can choose to become a donor by updating their profile.
+   - This allows more flexibility and increases the pool of available donors.
+
+## Technologies Used
 
 - **Languages**: Java, Kotlin
-- **Libraries**: Android SDK (standard), Glide (for image loading), Retrofit (for API calls), etc.
-- **Tools**: Android Studio, Git
+- **Libraries**:
+  - **Firebase Authentication** (for user authentication)
+  - **Firebase Firestore** (for storing user data, posts, and donor information)
+  - **Retrofit** (for network calls)
+  - **Glide** (for image loading)
+- **Tools**: Android Studio
 
-## Why This Repository?
+## Getting Started
 
-This repository is my space to practice and experiment with Android development. It contains simple examples and projects that help me understand key Android concepts. Feel free to explore, learn, or provide suggestions as I continue to improve my Android development skills.
+To run this project locally:
 
-## Future Plans
-
-- Build more complex projects that integrate multiple Android components.
-- Improve my skills in UI design and app performance optimization.
-- Learn about **Jetpack Compose** and implement modern UI in future projects.
-
-## Connect with Me
-
-If you have any suggestions, questions, or just want to share your thoughts, feel free to reach out. I’m always happy to connect with fellow developers!
-
-Thank you for visiting my repository. Let’s continue learning and building! 🚀
-
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/Blood-Doner-Finder.git
